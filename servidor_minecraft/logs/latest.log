@@ -1,8 +1,8 @@
-[15:11:07] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[15:11:07] [ForkJoinPool-1-worker-1/WARN]: Mod nicemod uses the version 1.4.2 - 1.21 which isn't compatible with Loader's extended semantic version format (Invalid prerelease string ' 1.21'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[15:11:07] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[19:21:50] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[19:21:50] [ForkJoinPool-1-worker-1/WARN]: Mod nicemod uses the version 1.4.2 - 1.21 which isn't compatible with Loader's extended semantic version format (Invalid prerelease string ' 1.21'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:21:51] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 11
-[15:11:08] [main/INFO]: Loading 186 mods:
+[19:21:51] [main/INFO]: Loading 186 mods:
 	- architectury 13.0.6
 	- armored-elytra 1.0.1
 	- artifacts 12.0.4
@@ -211,86 +211,84 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[15:11:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/World-D/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:11:08] [main/INFO]: Compatibility level set to JAVA_16
-[15:11:08] [main/INFO]: Compatibility level set to JAVA_21
-[15:11:09] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:11:09] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:11:09] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:11:09] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:11:09] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:11:09] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:11:09] [main/INFO]: Loaded configuration file for ModernFix 5.19.0+mc1.21: 53 options available, 0 override(s) found
-[15:11:09] [main/INFO]: Applying Nashorn fix
-[15:11:09] [main/WARN]: Reference map 'pickupnotifier.fabric.refmap.json' for pickupnotifier.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:11:10] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[15:11:10] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[15:11:10] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[15:11:10] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[15:11:10] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[15:11:11] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[15:11:11] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[15:11:17] [main/INFO]: Gobber Mod Info Message: Max value of attribute.name.generic.armor is currently set to 80.0
-[15:11:17] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[15:11:23] [main/INFO]: Vanilla bootstrap took 10885 milliseconds
-[15:11:23] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[15:11:23] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[15:11:23] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[15:11:23] [main/ERROR]: No data fixer registered for artifacts:mimic
-[15:11:24] [main/ERROR]: No data fixer registered for jungle_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for bamboo_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for desert_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for badlands_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for hills_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for savannah_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for mushroom_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for swamp_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for dripstone_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for cave_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for dark_oak_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for spruce_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for beach_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for snowy_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for ocean_creeper
-[15:11:24] [main/ERROR]: No data fixer registered for birch_creeper
-[15:11:25] [main/ERROR]: No data fixer registered for deeperdarker:angler_fish
-[15:11:25] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
-[15:11:25] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
-[15:11:25] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
-[15:11:25] [main/ERROR]: No data fixer registered for deeperdarker:shattered
-[15:11:25] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
-[15:11:25] [main/ERROR]: No data fixer registered for deeperdarker:sludge
-[15:11:25] [main/ERROR]: No data fixer registered for deeperdarker:stalker
-[15:11:25] [main/ERROR]: No data fixer registered for crystallized_amber
-[15:11:25] [main/INFO]: Constructing common components for easymagic:main
-[15:11:25] [main/INFO]: ExpandAbility here, who dis?
-[15:11:26] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
-[15:11:26] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
-[15:11:26] [main/ERROR]: No data fixer registered for season_sensor
-[15:11:26] [main/OFF]: gobber2 config settings json5 not found, creating default
-[15:11:26] [main/OFF]: gobber2 default config created at: ./config/gobber2/gobber_config_settings.json5
-[15:11:26] [main/ERROR]: No data fixer registered for handcrafted
-[15:11:26] [main/INFO]: Initializing ServerSide Packet Registries
-[15:11:27] [main/INFO]: Hello!
-[15:11:27] [main/INFO]: [STDOUT]: registering mod blocks for nicemod
-[15:11:27] [main/INFO]: forge?
-[15:11:27] [main/INFO]: Constructing common components for pickupnotifier:main
-[15:11:27] [main/INFO]: Constructing common components for puzzleslib:main
-[15:11:27] [main/INFO]: Config file './config/snuffles.json' does not exist. Creating it with default values.
-[15:11:27] [main/INFO]: Serializing class io.github.suel_ki.snuffles.core.config.SnufflesConfig to './config/snuffles.json'
-[15:11:28] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3feb6ed6]
-[15:11:28] [main/INFO]: WorldEdit for Fabric (version 7.3.6+6892-3d660b8) is loaded
-[15:11:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:11:31] [main/INFO]: No existing world data, creating new world
-[15:11:32] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
-[15:11:32] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[15:11:32] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[15:11:32] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
-[15:11:32] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
-[15:11:33] [Worker-Main-1/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[15:11:34] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_carpet_from_frosty_fluff
+[19:21:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/World-D/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:21:52] [main/INFO]: Compatibility level set to JAVA_16
+[19:21:52] [main/INFO]: Compatibility level set to JAVA_21
+[19:21:52] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:21:52] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:21:52] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:21:52] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:21:52] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:21:52] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:21:53] [main/INFO]: Loaded configuration file for ModernFix 5.19.0+mc1.21: 53 options available, 0 override(s) found
+[19:21:53] [main/INFO]: Applying Nashorn fix
+[19:21:53] [main/WARN]: Reference map 'pickupnotifier.fabric.refmap.json' for pickupnotifier.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:21:53] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[19:21:53] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[19:21:53] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[19:21:53] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[19:21:54] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[19:21:54] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[19:21:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:22:00] [main/INFO]: Gobber Mod Info Message: Max value of attribute.name.generic.armor is currently set to 80.0
+[19:22:00] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19:22:05] [main/INFO]: Vanilla bootstrap took 9835 milliseconds
+[19:22:05] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[19:22:05] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[19:22:05] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[19:22:05] [main/ERROR]: No data fixer registered for artifacts:mimic
+[19:22:06] [main/ERROR]: No data fixer registered for jungle_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for bamboo_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for desert_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for badlands_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for hills_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for savannah_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for mushroom_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for swamp_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for dripstone_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for cave_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for dark_oak_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for spruce_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for beach_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for snowy_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for ocean_creeper
+[19:22:06] [main/ERROR]: No data fixer registered for birch_creeper
+[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:angler_fish
+[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
+[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
+[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
+[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:shattered
+[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
+[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:sludge
+[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:stalker
+[19:22:07] [main/ERROR]: No data fixer registered for crystallized_amber
+[19:22:07] [main/INFO]: Constructing common components for easymagic:main
+[19:22:08] [main/INFO]: ExpandAbility here, who dis?
+[19:22:08] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
+[19:22:08] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
+[19:22:08] [main/ERROR]: No data fixer registered for season_sensor
+[19:22:08] [main/OFF]: gobber2 config settings json5 found
+[19:22:09] [main/ERROR]: No data fixer registered for handcrafted
+[19:22:09] [main/INFO]: Initializing ServerSide Packet Registries
+[19:22:09] [main/INFO]: Hello!
+[19:22:09] [main/INFO]: [STDOUT]: registering mod blocks for nicemod
+[19:22:09] [main/INFO]: assume less - mald more
+[19:22:09] [main/INFO]: Constructing common components for pickupnotifier:main
+[19:22:09] [main/INFO]: Constructing common components for puzzleslib:main
+[19:22:09] [main/INFO]: Deserializing SnufflesConfig from './config/snuffles.json'
+[19:22:10] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6da1803a]
+[19:22:10] [main/INFO]: WorldEdit for Fabric (version 7.3.6+6892-3d660b8) is loaded
+[19:22:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:22:13] [main/INFO]: No existing world data, creating new world
+[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
+[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
+[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
+[19:22:15] [Worker-Main-1/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_carpet_from_frosty_fluff
 com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frosty_fluff_carpet","count":3}]
-	at com.mojang.serialization.DataResult$Error.mdcf42c7$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -306,9 +304,9 @@ com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frost
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[15:11:34] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_carpet_from_snuffle_fluff_carpet
+[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_carpet_from_snuffle_fluff_carpet
 com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frosty_fluff_carpet","count":8}]
-	at com.mojang.serialization.DataResult$Error.mdcf42c7$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -324,9 +322,9 @@ com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frost
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[15:11:34] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_carpet_from_snuffle_fluff
+[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_carpet_from_snuffle_fluff
 com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:snuffle_fluff_carpet","count":3}]
-	at com.mojang.serialization.DataResult$Error.mdcf42c7$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -342,9 +340,9 @@ com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:snuff
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[15:11:34] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_from_snuffle_fluff
+[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_from_snuffle_fluff
 com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frosty_fluff","count":8}]
-	at com.mojang.serialization.DataResult$Error.mdcf42c7$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -360,9 +358,9 @@ com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frost
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[15:11:34] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_from_frosty_fluff
+[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_from_frosty_fluff
 com.google.gson.JsonParseException: Not a JSON object: "snuffles:snuffle_fluff"
-	at com.mojang.serialization.DataResult$Error.mdcf42c7$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -378,9 +376,9 @@ com.google.gson.JsonParseException: Not a JSON object: "snuffles:snuffle_fluff"
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[15:11:34] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_carpet_from_frosty_fluff_carpet
+[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_carpet_from_frosty_fluff_carpet
 com.google.gson.JsonParseException: Not a JSON object: "snuffles:snuffle_fluff_carpet"
-	at com.mojang.serialization.DataResult$Error.mdcf42c7$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -396,129 +394,149 @@ com.google.gson.JsonParseException: Not a JSON object: "snuffles:snuffle_fluff_c
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[15:11:34] [main/INFO]: Loaded 3586 recipes
-[15:11:35] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[15:11:35] [main/INFO]: Loaded 2414 advancements
-[15:11:35] [Thread-4/INFO]: Loaded 58 translation keys
-[15:11:35] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[15:11:35] [main/INFO]: Applied 1162 biome modifications to 162 of 162 new biomes in 51.37 ms
-[15:11:35] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[15:11:35] [Server thread/INFO]: Dispatching loading event for config pickupnotifier/pickupnotifier-server.toml
-[15:11:35] [Server thread/INFO]: Starting minecraft server version 1.21
-[15:11:35] [Server thread/INFO]: Loading properties
-[15:11:35] [Server thread/INFO]: Default game type: SURVIVAL
-[15:11:35] [Server thread/INFO]: Generating keypair
-[15:11:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:11:36] [Server thread/INFO]: Using epoll channel type
-[15:11:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:11:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:11:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:11:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:11:36] [Server thread/INFO]: Preparing level "world"
-[15:12:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:37] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:38] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:38] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:39] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:39] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:40] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:40] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:41] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:41] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:42] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:42] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:43] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:43] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:44] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:44] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:45] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:45] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:46] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:46] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:47] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:47] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:48] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:48] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:49] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:51] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:51] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:52] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:52] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:53] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[15:12:53] [Worker-Main-1/INFO]: Preparing spawn area: 55%
-[15:12:53] [Server thread/INFO]: Time elapsed: 24460 ms
-[15:12:53] [Server thread/INFO]: Done (77.748s)! For help, type "help"
-[15:12:53] [Server thread/WARN]: Dedicated server took 108.049 seconds to load
-[15:12:54] [Server thread/INFO]: Start loading plugin from Cooking for Blockheads: net.blay09.mods.cookingforblockheads.fabric.compat.FabricJadeCookingForBlockheadsPlugin
-[15:12:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[15:12:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[15:12:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[15:12:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[15:12:54] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
-[15:12:54] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
-[15:12:54] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[15:12:54] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@6e843c4c for service interface journeymap.api.services.ClientPlatformService
-[15:12:54] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@91f5edd for service interface journeymap.api.services.CommonPlatformService
-[15:12:54] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "6.0.0-beta.18": journeymap.server.global.config
-[15:12:54] [Server thread/INFO]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
-[15:12:54] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "6.0.0-beta.18": journeymap.server.default.config
-[15:12:54] [Server thread/INFO]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
-[15:12:54] [Server thread/INFO]: minecraft~overworld (Initialized) Setting config file to version "6.0.0-beta.18": journeymap.server.minecraft~overworld.config
-[15:12:54] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
-[15:12:54] [Server thread/INFO]: minecraft~the_nether (Initialized) Setting config file to version "6.0.0-beta.18": journeymap.server.minecraft~the_nether.config
-[15:12:54] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
-[15:12:54] [Server thread/INFO]: deeperdarker~otherside (Initialized) Setting config file to version "6.0.0-beta.18": journeymap.server.deeperdarker~otherside.config
-[15:12:54] [Server thread/INFO]: deeperdarker~otherside (Valid) Creating config file: journeymap/server/6.0/journeymap.server.deeperdarker~otherside.config
-[15:12:54] [Server thread/INFO]: minecraft~the_end (Initialized) Setting config file to version "6.0.0-beta.18": journeymap.server.minecraft~the_end.config
-[15:12:54] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
-[15:13:21] [Server thread/INFO]: El_Andrew22[/[0:0:0:0:0:0:0:1%0]:51178] logged in with entity id 26 at (282.5, 77.0, -103.5)
-[15:13:22] [Server thread/INFO]: El_Andrew22 joined the game
-[15:13:37] [Server thread/INFO]: Made El_Andrew22 a server operator
-[15:14:10] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[15:14:34] [Server thread/INFO]: [El_Andrew22: Set own game mode to Creative Mode]
-[15:15:19] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[15:15:19] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[15:15:19] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[15:15:19] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[15:15:19] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[15:15:19] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[15:15:43] [Server thread/WARN]: El_Andrew22 moved too quickly! -1.2408025116643557,-7.926085345835801,-6.0369436355365735
-[15:15:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2978ms or 59 ticks behind
-[15:16:31] [Server thread/INFO]: El_Andrew22 teleported to 437.0 85.0 -316.0 minecraft:overworld
-[15:16:39] [Server thread/INFO]: El_Andrew22 teleported to 495.0 102.0 -274.0 minecraft:overworld
-[15:18:05] [Server thread/INFO]: El_Andrew22 teleported to 374.0 141.0 -519.0 minecraft:overworld
-[15:18:50] [Server thread/INFO]: El_Andrew22 teleported to 342.0 79.0 -71.0 minecraft:overworld
-[15:19:26] [Server thread/INFO]: Stopping the server
-[15:19:27] [Server thread/INFO]: Stopping server
-[15:19:27] [Server thread/INFO]: Saving players
-[15:19:27] [Server thread/INFO]: El_Andrew22 lost connection: Server closed
-[15:19:27] [Server thread/INFO]: El_Andrew22 left the game
-[15:19:27] [Server thread/INFO]: Saving worlds
-[15:19:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:19:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:19:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[15:19:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[15:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:19:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:22:16] [main/INFO]: Loaded 3586 recipes
+[19:22:17] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[19:22:17] [main/INFO]: Loaded 2414 advancements
+[19:22:17] [Thread-4/INFO]: Loaded 58 translation keys
+[19:22:17] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[19:22:17] [main/INFO]: Applied 1162 biome modifications to 162 of 162 new biomes in 54.33 ms
+[19:22:17] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[19:22:17] [Server thread/INFO]: Dispatching loading event for config pickupnotifier/pickupnotifier-server.toml
+[19:22:18] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:22:18] [Server thread/INFO]: Loading properties
+[19:22:18] [Server thread/INFO]: Default game type: SURVIVAL
+[19:22:18] [Server thread/INFO]: Generating keypair
+[19:22:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:22:18] [Server thread/INFO]: Using epoll channel type
+[19:22:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:22:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:22:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:22:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:22:18] [Server thread/INFO]: Preparing level "world"
+[19:23:02] [Worker-Main-1/WARN]: Couldn't find template pool reference: ctov:village/waystone/sand
+[19:23:02] [Worker-Main-1/WARN]: Couldn't find template pool reference: ctov:village/waystone/sand
+[19:23:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:22] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:22] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:23] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:23] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:23:34] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:34] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:35] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:35] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:36] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:36] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:37] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:37] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:38] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:38] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:39] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:39] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:40] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:40] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:41] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:41] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:42] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:42] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:43] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:43] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:44] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:44] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:45] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:45] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:46] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:46] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[19:23:47] [Server thread/INFO]: Time elapsed: 34961 ms
+[19:23:47] [Server thread/INFO]: Done (88.854s)! For help, type "help"
+[19:23:47] [Server thread/WARN]: Dedicated server took 118.973 seconds to load
+[19:23:47] [Server thread/INFO]: Start loading plugin from Cooking for Blockheads: net.blay09.mods.cookingforblockheads.fabric.compat.FabricJadeCookingForBlockheadsPlugin
+[19:23:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[19:23:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[19:23:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[19:23:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[19:23:47] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
+[19:23:47] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[19:23:47] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[19:23:47] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@84b95e4 for service interface journeymap.api.services.ClientPlatformService
+[19:23:47] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@5e9e9ba6 for service interface journeymap.api.services.CommonPlatformService
+[19:24:04] [Server thread/INFO]: El_Andrew22[/[0:0:0:0:0:0:0:1%0]:44724] logged in with entity id 32 at (-8.5, 124.0, 2.5)
+[19:24:04] [Server thread/INFO]: El_Andrew22 joined the game
+[19:24:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[19:24:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-222, y=-51, z=-77}
+[19:24:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-222, y=-51, z=-80}
+[19:24:50] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-74}
+[19:24:50] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-77}
+[19:24:50] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-50, z=-72}
+[19:24:50] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-184, y=-45, z=-75}
+[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-195, y=-54, z=-92}
+[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-88}
+[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-85}
+[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-51, z=-89}
+[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-50, z=-90}
+[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-45, z=-87}
+[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-84}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-177, y=-55, z=-77}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-181, y=-50, z=-73}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-182, y=-45, z=-75}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-70}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-45, z=-85}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-41, z=-89}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-92}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-93}
+[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-175, y=-41, z=-90}
+[19:26:19] [Server thread/INFO]: El_Andrew22 lost connection: Timed out
+[19:26:19] [Server thread/INFO]: El_Andrew22 left the game
+[19:26:19] [Server thread/WARN]: handleDisconnection() called twice
+[19:26:27] [Server thread/INFO]: Stopping the server
+[19:26:27] [Server thread/INFO]: Stopping server
+[19:26:27] [Server thread/INFO]: Saving players
+[19:26:27] [Server thread/INFO]: Saving worlds
+[19:26:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[19:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

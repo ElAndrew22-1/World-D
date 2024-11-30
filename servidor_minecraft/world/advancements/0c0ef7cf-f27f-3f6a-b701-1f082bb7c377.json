@@ -1,36 +1,32 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-11-30 15:13:22 +0000"
+      "unlock_right_away": "2024-11-30 19:24:05 +0000"
     },
     "done": true
   },
   "senti:register": {
     "criteria": {
-      "requirement": "2024-11-30 15:13:22 +0000"
+      "requirement": "2024-11-30 19:24:05 +0000"
     },
     "done": true
   },
   "backpacks:tree/root": {
     "criteria": {
-      "requirement": "2024-11-30 15:13:22 +0000"
+      "requirement": "2024-11-30 19:24:05 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2024-11-30 15:17:19 +0000",
-      "minecraft:windswept_forest": "2024-11-30 15:13:51 +0000",
-      "minecraft:swamp": "2024-11-30 15:13:22 +0000",
-      "minecraft:windswept_hills": "2024-11-30 15:16:32 +0000",
-      "minecraft:windswept_savanna": "2024-11-30 15:15:02 +0000",
-      "minecraft:plains": "2024-11-30 15:17:56 +0000"
+      "minecraft:taiga": "2024-11-30 19:25:03 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-11-30 19:24:05 +0000"
     },
     "done": false
   },
   "senti:tick": {
     "criteria": {
-      "requirement": "2024-11-30 15:13:22 +0000"
+      "requirement": "2024-11-30 19:24:05 +0000"
     },
     "done": true
   },
