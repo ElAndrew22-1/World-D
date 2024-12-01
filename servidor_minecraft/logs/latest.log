@@ -1,47 +1,49 @@
-[19:21:50] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[19:21:50] [ForkJoinPool-1-worker-1/WARN]: Mod nicemod uses the version 1.4.2 - 1.21 which isn't compatible with Loader's extended semantic version format (Invalid prerelease string ' 1.21'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[19:21:51] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[01:14:26] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.9
+[01:14:26] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[01:14:27] [ForkJoinPool-1-worker-1/WARN]: Mod oceansdelight uses the version fdrf-fabric-1.0.2-1.21 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fdrf'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:14:27] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 11
-[19:21:51] [main/INFO]: Loading 186 mods:
+[01:14:27] [ForkJoinPool-1-worker-1/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:14:27] [main/INFO]: Loading 219 mods:
 	- architectury 13.0.6
 	- armored-elytra 1.0.1
-	- artifacts 12.0.4
+	- artifacts 12.0.6
 	   |-- com_electronwill_night-config_core 3.8.0
 	   |-- com_electronwill_night-config_toml 3.8.0
 	   \-- expandability 12.0.0
-	- balm-fabric 21.0.14
-	   \-- kuma_api 21.0.4
-	- bosses_of_mass_destruction 1.10.1-1.21
+	- balm-fabric 21.0.20
+	   \-- kuma_api 21.0.5-SNAPSHOT
+	- bosses_of_mass_destruction 1.10.2-1.21.1
 	   \-- multipart_entities 1.7-1.21
-	- cardinal-components 6.1.1
-	   |-- cardinal-components-base 6.1.1
-	   |-- cardinal-components-block 6.1.1
-	   |-- cardinal-components-chunk 6.1.1
-	   |-- cardinal-components-entity 6.1.1
-	   |-- cardinal-components-item 6.1.1
-	   |-- cardinal-components-level 6.1.1
-	   |-- cardinal-components-scoreboard 6.1.1
-	   \-- cardinal-components-world 6.1.1
+	- cardinal-components 6.1.2
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-block 6.1.2
+	   |-- cardinal-components-chunk 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   |-- cardinal-components-item 6.1.2
+	   |-- cardinal-components-level 6.1.2
+	   |-- cardinal-components-scoreboard 6.1.2
+	   \-- cardinal-components-world 6.1.2
 	- carryon 2.2.1
 	- chunky 1.4.16
-	- cloth-config 15.0.128
+	- cloth-config 15.0.140
 	   \-- cloth-basic-math 0.6.1
-	- cookingforblockheads 21.0.4
+	- cookingforblockheads 21.1.3
 	- craftsman_bows 1.0.1
-	- creeperoverhaul 4.0.4
+	- cratedelight 24.11.22-1.21-fabric
+	- creeperoverhaul 4.0.5
+	   \-- com_teamresourceful_resourceful-cosmetics-4j 1.0.3
 	- cropsloverain 2.1.1
-	   \-- midnightlib 1.5.7
-	- ctov 3.5.1
+	- ctov 3.5.4
 	- deeperdarker 1.3.1
 	   \-- customportalapi 0.0.1-beta66-1.21
 	- duckling 5.0.1
 	- dungeons_arise 2.1.60
-	- easymagic 21.0.2
-	- elytratrims 3.4.3
+	- easymagic 21.0.4
+	- elytratrims 3.5.4
 	   |-- conditional-mixin 0.6.2
 	   \-- mixinsquared 0.1.2-beta.4
-	- entityculling 1.6.6
-	- evs 2.2
+	- entityculling 1.7.1
 	- explorerscompass 1.21-2.2.5-fabric
 	- fabric-api 0.102.0+1.21
 	   |-- fabric-api-base 0.4.42+6573ed8cd1
@@ -92,34 +94,75 @@
 	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
 	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
 	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
-	- fabric-language-kotlin 1.12.0+kotlin.2.0.10
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.10
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.10
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.10
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.10
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
-	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.1
-	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.1
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.1
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.1
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.1
-	- fabricloader 0.16.3
+	- fabric-language-kotlin 1.13.0+kotlin.2.1.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.26.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
+	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
-	- fallingtree 1.21.0.7
+	- fallingtree 1.21.0.8
+	- farmersdelight 1.21-2.1.10+refabricated
+	   |-- mm 2.3
+	   |-- porting_lib_base 3.1.0-beta+fdrf.1+1.21
+	   |    |-- com_electronwill_night-config_core 3.8.0
+	   |    |-- com_electronwill_night-config_toml 3.8.0
+	   |    |-- mm 2.3
+	   |    |-- porting_lib_accessors 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_asm 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_attributes 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_blocks 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_common 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_entity 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_extensions 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_fluids 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_gui_utils 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_mixin_extensions 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_transfer 3.1.0-beta+fdrf.1+1.21
+	   |-- porting_lib_config 3.1.0-beta+fdrf.1+1.21
+	   |    |-- com_electronwill_night-config_core 3.8.0
+	   |    |-- com_electronwill_night-config_toml 3.8.0
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    \-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   |-- porting_lib_item_abilities 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_blocks 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   |    \-- porting_lib_level_events 3.1.0-beta+fdrf.1+1.21
+	   |-- porting_lib_lazy_registration 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    \-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   |-- porting_lib_loot 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_conditions 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    \-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   \-- porting_lib_recipe_book_categories 3.1.0-beta+fdrf.1+1.21
+	        |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	        \-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
 	- ferritecore 7.0.0
 	- forgeconfigapiport 21.0.8
 	   |-- com_electronwill_night-config_core 3.8.0
 	   \-- com_electronwill_night-config_toml 3.8.0
-	- friendsandfoes 2.0.16
-	- fzzy_config 0.3.5+1.21
+	- friendsandfoes 3.0.6
+	- fzzy_config 0.5.8+1.21
 	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
 	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
 	- geckolib 4.5.8
-	- geophilic 3.1.1
-	- glitchcore 2.0.0.2
+	- geophilic 3.1.4
+	- glitchcore 2.0.0.3
 	   \-- net_jodah_typetools 0.6.3
 	- gobber2 2.10.20
 	   |-- blue_endless_jankson 1.2.3
@@ -130,79 +173,85 @@
 	- hopobetterunderwaterruins 1.2.0
 	- jade 15.1.5+fabric
 	- java 21
-	- jei 19.8.1.98
-	- journeymap 1.21-6.0.0-beta.18
+	- jei 19.21.0.247
+	- journeymap 1.21-6.0.0-beta.27
 	   |-- ar_com_hjg_pngj 2.1.0
-	   |-- commonnetworking 1.0.11-1.21
+	   |-- commonnetworking 1.0.16-1.21
 	   \-- journeymap-api-fabric 2.0.0-1.21-SNAPSHOT
-	- lithostitched 1.2.5
+	- lithostitched 1.3.8
 	- mavapi 1.2.1
 	- mavm 1.3.0
 	- mcwdoors 1.1.1
 	- mcwfurnitures 3.3.0
 	- mcwlights 1.1.1
 	- minecraft 1.21
-	- modernfix 5.19.0+mc1.21
-	- mr_dungeons_andtaverns 1-v4.3
+	- modernfix 5.19.1+mc1.21
+	- moredelight 24.9.27-1.21-fabric
+	- mr_dungeons_andtaverns 1-v4.4.4
 	- mr_dungeons_andtavernsancientcityoverhaul 1-v2
-	- mr_dungeons_andtavernsdeserttempleoverhaul 1-v1.1
-	- mr_dungeons_andtavernsendcastlestandalone 1-v1
-	- mr_dungeons_andtavernsjungletempleoverhaul 1-v1.1
-	- mr_dungeons_andtavernsnetherfortressoverhaul 1-v2.1
+	- mr_dungeons_andtavernsdeserttemplereplacement 1-v1.2
+	- mr_dungeons_andtavernsendcastlestandalone 1-v1.1
+	- mr_dungeons_andtavernsjungletemplereplacement 1-v1.2
+	- mr_dungeons_andtavernsnetherfortressoverhaul 1-v2.4
 	- mr_dungeons_andtavernspillageroutpostoverhaul 1-v2.2
 	- mr_dungeons_andtavernsstrongholdrework 1-v2.1
-	- mr_remove_terralithintromessage 1.0
-	- mr_vanilla_backpacks 1.1.0
+	- mr_remove_terralithintromessage 1.1
+	- mr_serversleep 1-datapack2
+	- mr_vanilla_backpacks 1.1.3
 	- naturescompass 1.21-2.2.6-fabric
-	- nicemod 1.4.2 - 1.21
-	- owo 0.12.11+1.21
+	- nicemod 1.4.3
+	- oceansdelight fdrf-fabric-1.0.2-1.21
+	- owo 0.12.15+1.21
 	   |-- io_wispforest_endec 0.1.5
 	   |-- io_wispforest_endec_gson 0.1.3
 	   |-- io_wispforest_endec_jankson 0.1.3
 	   \-- io_wispforest_endec_netty 0.1.2
+	- photography 1.0.4+mc1.21.1
 	- pickupnotifier 21.0.0
 	- polymer-bundled 0.9.9+1.21
 	   |-- polymer-autohost 0.9.9+1.21
 	   |    \-- io_netty_netty-codec-http 4.1.82
-	   |-- polymer-blocks 0.9.9+1.21
-	   |-- polymer-common 0.9.9+1.21
-	   |    \-- packet_tweaker 0.5.5+1.21
-	   |-- polymer-core 0.9.9+1.21
-	   |    |-- polymer-networking 0.9.9+1.21
-	   |    |    \-- polymer-common 0.9.9+1.21
-	   |    |         \-- packet_tweaker 0.5.5+1.21
-	   |    \-- polymer-registry-sync-manipulator 0.9.9+1.21
-	   |-- polymer-resource-pack 0.9.9+1.21
-	   |    \-- polymer-common 0.9.9+1.21
-	   |         \-- packet_tweaker 0.5.5+1.21
-	   \-- polymer-virtual-entity 0.9.9+1.21
-	        \-- polymer-common 0.9.9+1.21
-	             \-- packet_tweaker 0.5.5+1.21
-	- puzzleslib 21.0.19
-	- resourcefulconfig 3.0.3
-	- resourcefullib 3.0.9
+	   \-- polymer-blocks 0.9.9+1.21
+	- pumpkin_pie 1.0.1+1.21
+	- puzzleslib 21.0.28
+	- resourcefulconfig 3.0.8
+	- resourcefullib 3.0.11
 	   |-- com_teamresourceful_bytecodecs 1.1.2
 	   \-- com_teamresourceful_yabn 1.0.3
-	- sereneseasons 10.0.0.2
+	- rusticdelight 1.0.2
+	- seeddelight 0.1
+	- sereneseasons 10.0.0.6
 	   \-- net_jodah_typetools 0.6.3
-	- serversleep_mr 1-datapack
 	- sit 1.21-28
 	- skinlayers3d 1.6.6
 	- snuffles 1.2.0+1.21
-	- tectonic 2.4.1
-	- terralith 2.5.4
+	- storagedelight 24.9.11-1.21-fabric
+	- tectonic 2.4.1a
+	- terralith 2.5.6
 	- trinkets 3.10.0
-	- universal-graves 3.4.3+1.21
+	- ubesdelight 0.2.3
+	   \-- midnightlib 1.6.3
+	- universal-graves 3.4.4+1.21
 	   |-- common-protection-api 1.0.0
-	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
 	   |-- placeholder-api 2.4.1+1.21
+	   |-- polymer-core 0.9.14+1.21.1
+	   |    |-- polymer-networking 0.9.14+1.21.1
+	   |    |    \-- polymer-common 0.9.14+1.21.1
+	   |    |         \-- packet_tweaker 0.5.5+1.21
+	   |    \-- polymer-registry-sync-manipulator 0.9.14+1.21.1
+	   |-- polymer-resource-pack 0.9.14+1.21.1
+	   |    \-- polymer-common 0.9.14+1.21.1
+	   |         \-- packet_tweaker 0.5.5+1.21
+	   |-- polymer-virtual-entity 0.9.14+1.21.1
+	   |    \-- polymer-common 0.9.14+1.21.1
+	   |         \-- packet_tweaker 0.5.5+1.21
 	   |-- predicate-api 0.5.1+1.21
 	   |-- server_translations_api 2.3.1+1.21-pre2
 	   \-- sgui 1.6.0+1.21
-	- waystones 21.0.8
-	- worldedit 7.3.6+6892-3d660b8
-	- xp_storage 1.5.10+1.21
-	- yet_another_config_lib_v3 3.5.0+1.21-fabric
+	- waystones 21.1.5
+	- worldedit 7.3.8+6939-7d32b45
+	- xp_storage 1.6+1.21
+	- yet_another_config_lib_v3 3.6.1+1.21-fabric
 	   |-- com_twelvemonkeys_common_common-image 3.10.0
 	   |-- com_twelvemonkeys_common_common-io 3.10.0
 	   |-- com_twelvemonkeys_common_common-lang 3.10.0
@@ -211,332 +260,403 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[19:21:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/World-D/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:21:52] [main/INFO]: Compatibility level set to JAVA_16
-[19:21:52] [main/INFO]: Compatibility level set to JAVA_21
-[19:21:52] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:21:52] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:21:52] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:21:52] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:21:52] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:21:52] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:21:53] [main/INFO]: Loaded configuration file for ModernFix 5.19.0+mc1.21: 53 options available, 0 override(s) found
-[19:21:53] [main/INFO]: Applying Nashorn fix
-[19:21:53] [main/WARN]: Reference map 'pickupnotifier.fabric.refmap.json' for pickupnotifier.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:21:53] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[19:21:53] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[19:21:53] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[19:21:53] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[19:21:54] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[19:21:54] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[19:21:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:22:00] [main/INFO]: Gobber Mod Info Message: Max value of attribute.name.generic.armor is currently set to 80.0
-[19:22:00] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[19:22:05] [main/INFO]: Vanilla bootstrap took 9835 milliseconds
-[19:22:05] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[19:22:05] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[19:22:05] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[19:22:05] [main/ERROR]: No data fixer registered for artifacts:mimic
-[19:22:06] [main/ERROR]: No data fixer registered for jungle_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for bamboo_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for desert_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for badlands_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for hills_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for savannah_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for mushroom_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for swamp_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for dripstone_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for cave_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for dark_oak_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for spruce_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for beach_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for snowy_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for ocean_creeper
-[19:22:06] [main/ERROR]: No data fixer registered for birch_creeper
-[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:angler_fish
-[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
-[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
-[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
-[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:shattered
-[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
-[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:sludge
-[19:22:07] [main/ERROR]: No data fixer registered for deeperdarker:stalker
-[19:22:07] [main/ERROR]: No data fixer registered for crystallized_amber
-[19:22:07] [main/INFO]: Constructing common components for easymagic:main
-[19:22:08] [main/INFO]: ExpandAbility here, who dis?
-[19:22:08] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
-[19:22:08] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
-[19:22:08] [main/ERROR]: No data fixer registered for season_sensor
-[19:22:08] [main/OFF]: gobber2 config settings json5 found
-[19:22:09] [main/ERROR]: No data fixer registered for handcrafted
-[19:22:09] [main/INFO]: Initializing ServerSide Packet Registries
-[19:22:09] [main/INFO]: Hello!
-[19:22:09] [main/INFO]: [STDOUT]: registering mod blocks for nicemod
-[19:22:09] [main/INFO]: assume less - mald more
-[19:22:09] [main/INFO]: Constructing common components for pickupnotifier:main
-[19:22:09] [main/INFO]: Constructing common components for puzzleslib:main
-[19:22:09] [main/INFO]: Deserializing SnufflesConfig from './config/snuffles.json'
-[19:22:10] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6da1803a]
-[19:22:10] [main/INFO]: WorldEdit for Fabric (version 7.3.6+6892-3d660b8) is loaded
-[19:22:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:22:13] [main/INFO]: No existing world data, creating new world
-[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
-[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
-[19:22:14] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
-[19:22:15] [Worker-Main-1/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_carpet_from_frosty_fluff
+[01:14:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/World-D/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:14:28] [main/INFO]: Compatibility level set to JAVA_16
+[01:14:28] [main/INFO]: Compatibility level set to JAVA_21
+[01:14:29] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:14:29] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:14:29] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:14:29] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:14:29] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:14:29] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:14:29] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[01:14:29] [main/INFO]: Applying Nashorn fix
+[01:14:29] [main/WARN]: Reference map 'pickupnotifier.fabric.refmap.json' for pickupnotifier.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:14:29] [main/WARN]: Reference map 'ubesdelight-common-refmap.json' for ubesdelight-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:14:29] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[01:14:29] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[01:14:29] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[01:14:29] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[01:14:29] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[01:14:29] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[01:14:30] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[01:14:30] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[01:14:30] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[01:14:30] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[01:14:30] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[01:14:30] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[01:14:30] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[01:14:30] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[01:14:30] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[01:14:30] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[01:14:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:14:36] [main/INFO]: Gobber Mod Info Message: Max value of attribute.name.generic.armor is currently set to 80.0
+[01:14:37] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01:14:42] [main/INFO]: Vanilla bootstrap took 10600 milliseconds
+[01:14:43] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[01:14:43] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[01:14:43] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[01:14:43] [main/ERROR]: No data fixer registered for artifacts:mimic
+[01:14:44] [main/INFO]: Registering Item Groups for cratedelight
+[01:14:44] [main/INFO]: Registering ModBLocks for cratedelight
+[01:14:44] [main/ERROR]: No data fixer registered for jungle_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for bamboo_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for desert_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for badlands_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for hills_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for savannah_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for mushroom_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for swamp_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for dripstone_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for cave_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for dark_oak_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for spruce_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for beach_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for snowy_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for ocean_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for birch_creeper
+[01:14:44] [main/ERROR]: No data fixer registered for deeperdarker:angler_fish
+[01:14:44] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
+[01:14:44] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
+[01:14:44] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
+[01:14:44] [main/ERROR]: No data fixer registered for deeperdarker:shattered
+[01:14:44] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
+[01:14:44] [main/ERROR]: No data fixer registered for deeperdarker:sludge
+[01:14:44] [main/ERROR]: No data fixer registered for deeperdarker:stalker
+[01:14:44] [main/ERROR]: No data fixer registered for crystallized_amber
+[01:14:44] [main/INFO]: Constructing common components for easymagic:main
+[01:14:44] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[01:14:45] [main/INFO]: ExpandAbility here, who dis?
+[01:14:45] [main/WARN]: Configuration file ./config/porting_lib_config.toml is not correct. Correcting
+[01:14:45] [main/INFO]: Incorrect key [disableConfigWatcher] was corrected from null to false
+[01:14:45] [main/ERROR]: No data fixer registered for rotten_tomato
+[01:14:46] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
+[01:14:46] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
+[01:14:46] [main/ERROR]: No data fixer registered for season_sensor
+[01:14:46] [main/OFF]: gobber2 config settings json5 found
+[01:14:46] [main/ERROR]: No data fixer registered for handcrafted
+[01:14:47] [main/INFO]: Initializing ServerSide Packet Registries
+[01:14:48] [main/INFO]: Definitely not up to no good
+[01:14:48] [main/INFO]: Hello!
+[01:14:48] [main/INFO]: [STDOUT]: registering mod blocks for nicemod
+[01:14:48] [main/INFO]: Registering Items for oceansdelight
+[01:14:48] [main/INFO]: Registering Blocks for oceansdelight
+[01:14:48] [main/INFO]: Registering tabs for oceansdelight
+[01:14:48] [main/INFO]: chyz: now i just need to painstakingly move jerry (the little tiny lil fella tiny guy man button) to correct spot when recipe book is opened
+[01:14:48] [main/INFO]: Constructing common components for pickupnotifier:main
+[01:14:48] [main/INFO]: Constructing common components for puzzleslib:main
+[01:14:48] [main/INFO]: Registering items for rusticdelight
+[01:14:48] [main/INFO]: Registering blocks for rusticdelight
+[01:14:48] [main/INFO]: Registering potions for rusticdelight
+[01:14:48] [main/INFO]: Registering biome modifications for rusticdelight
+[01:14:48] [main/INFO]: Registering item group for rusticdelight
+[01:14:48] [main/INFO]: Deserializing SnufflesConfig from './config/snuffles.json'
+[01:14:48] [main/INFO]: The config file waystones-common.toml is missing some properties.
+[01:14:48] [main/INFO]: The missing properties have been added and a backup of the previous version was created under waystones-common.toml.bak1
+[01:14:49] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6f62637e]
+[01:14:49] [main/INFO]: WorldEdit for Fabric (version 7.3.8+6939-7d32b45) is loaded
+[01:14:49] [main/ERROR]: Failed to load config 'class com.github.charlyb01.xpstorage.config.ModConfig', using default!
+me.shedaniel.autoconfig.serializer.ConfigSerializer$SerializationException: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected a string but was BOOLEAN at line 2 column 23 path $.bookTooltip
+	at knot/me.shedaniel.autoconfig.serializer.GsonConfigSerializer.deserialize(GsonConfigSerializer.java:83) ~[cloth-config-15.0.140-fabric.jar:?]
+	at knot/me.shedaniel.autoconfig.serializer.PartitioningSerializer.deserialize(PartitioningSerializer.java:119) ~[cloth-config-15.0.140-fabric.jar:?]
+	at knot/me.shedaniel.autoconfig.serializer.PartitioningSerializer.deserialize(PartitioningSerializer.java:40) ~[cloth-config-15.0.140-fabric.jar:?]
+	at knot/me.shedaniel.autoconfig.ConfigManager.load(ConfigManager.java:92) ~[cloth-config-15.0.140-fabric.jar:?]
+	at knot/me.shedaniel.autoconfig.ConfigManager.<init>(ConfigManager.java:53) ~[cloth-config-15.0.140-fabric.jar:?]
+	at knot/me.shedaniel.autoconfig.AutoConfig.register(AutoConfig.java:66) ~[cloth-config-15.0.140-fabric.jar:?]
+	at knot/com.github.charlyb01.xpstorage.XpStorage.onInitialize(XpStorage.java:17) ~[xp_storage-1.6+1.21.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) [fabric-loader-0.16.9.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:111) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected a string but was BOOLEAN at line 2 column 23 path $.bookTooltip
+	at knot/com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:397) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.Gson.fromJson(Gson.java:1075) ~[gson-2.10.1.jar:?]
+	at knot/me.shedaniel.autoconfig.serializer.GsonConfigSerializer.deserialize(GsonConfigSerializer.java:79) ~[cloth-config-15.0.140-fabric.jar:?]
+	... 14 more
+Caused by: java.lang.IllegalStateException: Expected a string but was BOOLEAN at line 2 column 23 path $.bookTooltip
+	at knot/com.google.gson.stream.JsonReader.nextString(JsonReader.java:836) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter.read(TypeAdapters.java:910) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter.read(TypeAdapters.java:859) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.Gson.fromJson(Gson.java:1075) ~[gson-2.10.1.jar:?]
+	at knot/me.shedaniel.autoconfig.serializer.GsonConfigSerializer.deserialize(GsonConfigSerializer.java:79) ~[cloth-config-15.0.140-fabric.jar:?]
+	... 14 more
+[01:14:50] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:14:50] [main/WARN]: Missing data pack evs
+[01:14:50] [main/WARN]: Missing data pack mr_dungeons_andtavernsdeserttempleoverhaul
+[01:14:50] [main/WARN]: Missing data pack mr_dungeons_andtavernsjungletempleoverhaul
+[01:14:50] [main/WARN]: Missing data pack serversleep_mr
+[01:14:50] [main/INFO]: Found new data pack cratedelight, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack farmersdelight, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack moredelight, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack mr_dungeons_andtavernsdeserttemplereplacement, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack mr_dungeons_andtavernsjungletemplereplacement, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack mr_serversleep, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack oceansdelight, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack photography, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack porting_lib_base, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack porting_lib_gametest, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack porting_lib_item_abilities, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack porting_lib_tags, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack pumpkin_pie, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack rusticdelight, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack seeddelight, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack storagedelight, loading it automatically
+[01:14:50] [main/INFO]: Found new data pack ubesdelight, loading it automatically
+[01:14:53] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
+[01:14:53] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[01:14:53] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[01:14:53] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
+[01:14:53] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
+[01:14:54] [Worker-Main-1/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[01:14:55] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_carpet_from_frosty_fluff
 com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frosty_fluff_carpet","count":3}]
-	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
-	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.md124e0d$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_carpet_from_snuffle_fluff_carpet
+[01:14:55] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_carpet_from_snuffle_fluff_carpet
 com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frosty_fluff_carpet","count":8}]
-	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
-	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.md124e0d$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_carpet_from_snuffle_fluff
+[01:14:55] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_carpet_from_snuffle_fluff
 com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:snuffle_fluff_carpet","count":3}]
-	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
-	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.md124e0d$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_from_snuffle_fluff
+[01:14:55] [main/ERROR]: Parsing error loading recipe snuffles:frosty_fluff_from_snuffle_fluff
 com.google.gson.JsonParseException: No key id in MapLike[{"item":"snuffles:frosty_fluff","count":8}]
-	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
-	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.md124e0d$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_from_frosty_fluff
+[01:14:55] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_from_frosty_fluff
 com.google.gson.JsonParseException: Not a JSON object: "snuffles:snuffle_fluff"
-	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
-	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.md124e0d$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[19:22:16] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_carpet_from_frosty_fluff_carpet
+[01:14:55] [main/ERROR]: Parsing error loading recipe snuffles:snuffle_fluff_carpet_from_frosty_fluff_carpet
 com.google.gson.JsonParseException: Not a JSON object: "snuffles:snuffle_fluff_carpet"
-	at com.mojang.serialization.DataResult$Error.md60ead2$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
-	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.md124e0d$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[19:22:16] [main/INFO]: Loaded 3586 recipes
-[19:22:17] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[19:22:17] [main/INFO]: Loaded 2414 advancements
-[19:22:17] [Thread-4/INFO]: Loaded 58 translation keys
-[19:22:17] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[19:22:17] [main/INFO]: Applied 1162 biome modifications to 162 of 162 new biomes in 54.33 ms
-[19:22:17] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[19:22:17] [Server thread/INFO]: Dispatching loading event for config pickupnotifier/pickupnotifier-server.toml
-[19:22:18] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:22:18] [Server thread/INFO]: Loading properties
-[19:22:18] [Server thread/INFO]: Default game type: SURVIVAL
-[19:22:18] [Server thread/INFO]: Generating keypair
-[19:22:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:22:18] [Server thread/INFO]: Using epoll channel type
-[19:22:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:22:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:22:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:22:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:22:18] [Server thread/INFO]: Preparing level "world"
-[19:23:02] [Worker-Main-1/WARN]: Couldn't find template pool reference: ctov:village/waystone/sand
-[19:23:02] [Worker-Main-1/WARN]: Couldn't find template pool reference: ctov:village/waystone/sand
-[19:23:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:22] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:22] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:23] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:23] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:33] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[19:23:34] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:34] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:35] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:35] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:36] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:36] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:37] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:37] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:38] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:38] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:39] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:39] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:40] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:40] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:41] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:41] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:42] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:42] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:43] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:43] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:44] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:44] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:45] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:45] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:46] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:46] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:47] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[19:23:47] [Server thread/INFO]: Time elapsed: 34961 ms
-[19:23:47] [Server thread/INFO]: Done (88.854s)! For help, type "help"
-[19:23:47] [Server thread/WARN]: Dedicated server took 118.973 seconds to load
-[19:23:47] [Server thread/INFO]: Start loading plugin from Cooking for Blockheads: net.blay09.mods.cookingforblockheads.fabric.compat.FabricJadeCookingForBlockheadsPlugin
-[19:23:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[19:23:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[19:23:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[19:23:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[19:23:47] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
-[19:23:47] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
-[19:23:47] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[19:23:47] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@84b95e4 for service interface journeymap.api.services.ClientPlatformService
-[19:23:47] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@5e9e9ba6 for service interface journeymap.api.services.CommonPlatformService
-[19:24:04] [Server thread/INFO]: El_Andrew22[/[0:0:0:0:0:0:0:1%0]:44724] logged in with entity id 32 at (-8.5, 124.0, 2.5)
-[19:24:04] [Server thread/INFO]: El_Andrew22 joined the game
-[19:24:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[19:24:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-222, y=-51, z=-77}
-[19:24:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-222, y=-51, z=-80}
-[19:24:50] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-74}
-[19:24:50] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-77}
-[19:24:50] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-50, z=-72}
-[19:24:50] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-184, y=-45, z=-75}
-[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-195, y=-54, z=-92}
-[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-88}
-[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-85}
-[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-51, z=-89}
-[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-50, z=-90}
-[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-45, z=-87}
-[19:24:52] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-84}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-177, y=-55, z=-77}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-181, y=-50, z=-73}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-182, y=-45, z=-75}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-70}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-45, z=-85}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-41, z=-89}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-92}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-93}
-[19:25:06] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-175, y=-41, z=-90}
-[19:26:19] [Server thread/INFO]: El_Andrew22 lost connection: Timed out
-[19:26:19] [Server thread/INFO]: El_Andrew22 left the game
-[19:26:19] [Server thread/WARN]: handleDisconnection() called twice
-[19:26:27] [Server thread/INFO]: Stopping the server
-[19:26:27] [Server thread/INFO]: Stopping server
-[19:26:27] [Server thread/INFO]: Saving players
-[19:26:27] [Server thread/INFO]: Saving worlds
-[19:26:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[19:26:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:26:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:14:55] [main/INFO]: Loaded 4167 recipes
+[01:14:56] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[01:14:56] [main/INFO]: Loaded 2932 advancements
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_cold - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_snowy_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_toolsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id rusticdelight:calamari_from_glow_squid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: rusticdelight:squids_drop_calamari_modifier
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/pillager_outpost - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_tannery - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city_ice_box - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_hoglin_stable - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/cow - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_plains_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ruined_portal - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/underwater_ruin_big - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_weaponsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/igloo_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_desert_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/buried_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/spawn_bonus_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_taiga_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_well - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/shipwreck_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/jungle_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/stronghold_corridor - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_butcher - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id rusticdelight:calamari_from_squid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: rusticdelight:squids_drop_calamari_modifier
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_savanna_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_warm - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_armorer - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/trail_ruins_rare - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/mooshroom - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[01:14:56] [Thread-4/INFO]: Loaded 58 translation keys
+[01:14:56] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[01:14:56] [main/INFO]: Applied 1346 biome modifications to 157 of 162 new biomes in 78.97 ms
+[01:14:56] [Server thread/WARN]: Configuration file ./config/easymagic-server.toml is not correct. Correcting
+[01:14:56] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[01:14:56] [Server thread/INFO]: Dispatching loading event for config pickupnotifier/pickupnotifier-server.toml
+[01:14:57] [Server thread/INFO]: Starting minecraft server version 1.21
+[01:14:57] [Server thread/INFO]: Loading properties
+[01:14:57] [Server thread/INFO]: Default game type: SURVIVAL
+[01:14:57] [Server thread/INFO]: Generating keypair
+[01:14:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:14:57] [Server thread/INFO]: Using epoll channel type
+[01:14:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:14:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:14:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:14:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:14:57] [Server thread/INFO]: Preparing level "world"
+[01:14:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:15:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:15:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:15:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:15:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:15:00] [Server thread/INFO]: Time elapsed: 2166 ms
+[01:15:00] [Server thread/INFO]: Done (2.831s)! For help, type "help"
+[01:15:00] [Server thread/WARN]: Dedicated server took 44.051 seconds to load
+[01:15:00] [Server thread/INFO]: Start loading plugin from Cooking for Blockheads: net.blay09.mods.cookingforblockheads.fabric.compat.FabricJadeCookingForBlockheadsPlugin
+[01:15:00] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[01:15:00] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[01:15:00] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[01:15:00] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[01:15:00] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
+[01:15:00] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[01:15:00] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[01:15:00] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@636568d1 for service interface journeymap.api.services.ClientPlatformService
+[01:15:00] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@35d9b33 for service interface journeymap.api.services.CommonPlatformService
+[01:15:00] [Server thread/INFO]: global (FileLoaded) Config file isn't current, has version "6.0.0-beta.18": journeymap.server.global.config
+[01:15:00] [Server thread/INFO]: global (Invalid) Setting config file to version "6.0.0-beta.27": journeymap.server.global.config
+[01:15:00] [Server thread/INFO]: default (FileLoaded) Config file isn't current, has version "6.0.0-beta.18": journeymap.server.default.config
+[01:15:00] [Server thread/INFO]: default (Invalid) Setting config file to version "6.0.0-beta.27": journeymap.server.default.config
+[01:15:00] [Server thread/WARN]: minecraft~overworld (Initialized) Bad configField entry during updateFrom(): surfaceRenderRange=null
+[01:15:00] [Server thread/WARN]: minecraft~overworld (Initialized) Bad configField entry during updateFrom(): playerRadarNamesEnabled=null
+[01:15:00] [Server thread/WARN]: minecraft~overworld (Initialized) Bad configField entry during updateFrom(): caveRenderRange=null
+[01:15:00] [Server thread/INFO]: minecraft~overworld (FileLoaded) Config file isn't current, has version "6.0.0-beta.18": journeymap.server.minecraft~overworld.config
+[01:15:00] [Server thread/INFO]: minecraft~overworld (Invalid) Setting config file to version "6.0.0-beta.27": journeymap.server.minecraft~overworld.config
+[01:15:00] [Server thread/WARN]: minecraft~the_end (Initialized) Bad configField entry during updateFrom(): surfaceRenderRange=null
+[01:15:00] [Server thread/WARN]: minecraft~the_end (Initialized) Bad configField entry during updateFrom(): playerRadarNamesEnabled=null
+[01:15:00] [Server thread/WARN]: minecraft~the_end (Initialized) Bad configField entry during updateFrom(): caveRenderRange=null
+[01:15:00] [Server thread/INFO]: minecraft~the_end (FileLoaded) Config file isn't current, has version "6.0.0-beta.18": journeymap.server.minecraft~the_end.config
+[01:15:00] [Server thread/INFO]: minecraft~the_end (Invalid) Setting config file to version "6.0.0-beta.27": journeymap.server.minecraft~the_end.config
+[01:15:00] [Server thread/WARN]: minecraft~the_nether (Initialized) Bad configField entry during updateFrom(): surfaceRenderRange=null
+[01:15:00] [Server thread/WARN]: minecraft~the_nether (Initialized) Bad configField entry during updateFrom(): playerRadarNamesEnabled=null
+[01:15:00] [Server thread/WARN]: minecraft~the_nether (Initialized) Bad configField entry during updateFrom(): caveRenderRange=null
+[01:15:00] [Server thread/INFO]: minecraft~the_nether (FileLoaded) Config file isn't current, has version "6.0.0-beta.18": journeymap.server.minecraft~the_nether.config
+[01:15:00] [Server thread/INFO]: minecraft~the_nether (Invalid) Setting config file to version "6.0.0-beta.27": journeymap.server.minecraft~the_nether.config
+[01:15:00] [Server thread/WARN]: deeperdarker~otherside (Initialized) Bad configField entry during updateFrom(): surfaceRenderRange=null
+[01:15:00] [Server thread/WARN]: deeperdarker~otherside (Initialized) Bad configField entry during updateFrom(): playerRadarNamesEnabled=null
+[01:15:00] [Server thread/WARN]: deeperdarker~otherside (Initialized) Bad configField entry during updateFrom(): caveRenderRange=null
+[01:15:00] [Server thread/INFO]: deeperdarker~otherside (FileLoaded) Config file isn't current, has version "6.0.0-beta.18": journeymap.server.deeperdarker~otherside.config
+[01:15:00] [Server thread/INFO]: deeperdarker~otherside (Invalid) Setting config file to version "6.0.0-beta.27": journeymap.server.deeperdarker~otherside.config
+[01:17:42] [Server thread/INFO]: El_Andrew22[/[0:0:0:0:0:0:0:1%0]:37214] logged in with entity id 76 at (-6.487674177190493, 133.0, 14.794155242566822)
+[01:17:42] [Server thread/INFO]: El_Andrew22 joined the game
+[01:17:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5247ms or 104 ticks behind
+[01:18:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10395ms or 207 ticks behind
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:minecart/oak_mineshaft -> hopo:minecart/oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:minecart/oak_mineshaft -> hopo:minecart/oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:minecart/oak_mineshaft -> hopo:minecart/oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:minecart/oak_mineshaft -> hopo:minecart/oak_mineshaft
+[01:18:33] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[01:19:12] [Server thread/INFO]: Stopping the server
+[01:19:12] [Server thread/INFO]: Stopping server
+[01:19:12] [Server thread/INFO]: Saving players
+[01:19:12] [Server thread/INFO]: Saving worlds
+[01:19:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:19:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:19:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:19:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[01:19:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:19:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:19:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:19:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[01:19:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:19:14] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[01:19:14] [Server thread/INFO]: Dispatching unloading event for config pickupnotifier/pickupnotifier-server.toml
