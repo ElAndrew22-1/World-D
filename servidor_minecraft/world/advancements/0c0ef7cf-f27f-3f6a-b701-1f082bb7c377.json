@@ -19,6 +19,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2024-12-06 02:40:54 +0000",
       "minecraft:taiga": "2024-11-30 19:25:03 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-11-30 19:24:05 +0000"
     },
@@ -48,6 +49,12 @@
     },
     "done": true
   },
+  "oceansdelight:recipes/food/stuffed_cod": {
+    "criteria": {
+      "has_cod": "2024-12-06 02:25:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2024-12-06 02:15:40 +0000"
@@ -60,9 +67,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-12-06 02:37:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
+    },
+    "done": true
+  },
+  "ubesdelight:farmersdelight/recipes/cooking/bangsilog": {
+    "criteria": {
+      "has_foods_safe_raw_fish": "2024-12-06 02:25:25 +0000"
     },
     "done": true
   },
@@ -78,9 +97,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-12-06 02:37:38 +0000"
+    },
+    "done": true
+  },
   "cookingforblockheads:recipes/decorations/white_oven": {
     "criteria": {
       "has_furnace": "2024-12-06 02:20:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-06 02:25:25 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/echo_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2024-12-06 02:34:30 +0000"
     },
     "done": true
   },
@@ -96,9 +139,21 @@
     },
     "done": true
   },
+  "cratedelight:recipes/building_blocks/cookie_bag": {
+    "criteria": {
+      "has_cookie": "2024-12-06 02:32:51 +0000"
+    },
+    "done": true
+  },
   "gobber2:recipes/misc/gobber2_hammer": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-06 02:32:53 +0000"
     },
     "done": true
   },
@@ -138,6 +193,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-12-06 02:25:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2024-12-06 02:15:40 +0000"
@@ -174,6 +235,18 @@
     },
     "done": true
   },
+  "handcrafted:recipes/misc/black_sheet": {
+    "criteria": {
+      "has_black_sheet": "2024-12-06 02:28:33 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/bloom_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2024-12-06 02:20:16 +0000"
@@ -204,15 +277,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-12-06 02:28:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2024-12-06 02:34:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-12-06 02:28:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-06 02:32:53 +0000"
+    },
+    "done": true
+  },
   "gobber2:recipes/misc/gobber2_medallion_nether": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-12-06 02:37:38 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/spruce_table": {
     "criteria": {
       "has_spruce_table": "2024-12-06 02:14:53 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-06 02:32:53 +0000"
     },
     "done": true
   },
@@ -288,6 +397,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
+    },
+    "done": true
+  },
   "gobber2:recipes/misc/gobber2_paxel": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
@@ -348,9 +463,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-12-06 02:28:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2024-12-06 02:15:40 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_sheet": {
+    "criteria": {
+      "has_white_sheet": "2024-12-06 02:28:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
+    },
+    "done": true
+  },
+  "ubesdelight:farmersdelight/recipes/cooking/bangsilog_extra": {
+    "criteria": {
+      "has_fishes": "2024-12-06 02:25:25 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_cushion": {
+    "criteria": {
+      "has_white_cushion": "2024-12-06 02:28:32 +0000"
     },
     "done": true
   },
@@ -378,9 +523,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-12-06 02:37:38 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/spruce_couch": {
     "criteria": {
       "has_spruce_couch": "2024-12-06 02:14:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-06 02:24:13 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2024-12-06 02:24:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
     },
     "done": true
   },
@@ -405,6 +580,18 @@
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2024-12-06 02:14:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-12-06 02:28:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
     },
     "done": true
   },
@@ -444,6 +631,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-06 02:32:53 +0000"
+    },
+    "done": true
+  },
   "ubesdelight:farmersdelight/recipes/cooking/bulalo": {
     "criteria": {
       "has_foods_raw_beef": "2024-12-06 02:22:03 +0000"
@@ -462,9 +655,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2024-12-06 02:23:01 +0000"
+    },
+    "done": true
+  },
   "gobber2:recipes/misc/gobber2_rod_nether": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
+    },
+    "done": true
+  },
+  "cookingforblockheads:recipes/decorations/sink": {
+    "criteria": {
+      "has_water_bucket": "2024-12-06 02:25:26 +0000"
     },
     "done": true
   },
@@ -483,6 +688,12 @@
   "handcrafted:recipes/misc/bear_trophy": {
     "criteria": {
       "has_bear_trophy": "2024-12-06 02:14:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
     },
     "done": true
   },
@@ -522,6 +733,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-12-06 02:28:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2024-12-06 02:22:03 +0000"
@@ -543,6 +760,12 @@
   "handcrafted:recipes/misc/spruce_bench": {
     "criteria": {
       "has_spruce_bench": "2024-12-06 02:14:53 +0000"
+    },
+    "done": true
+  },
+  "ubesdelight:farmersdelight/recipes/cooking/raw_polvorone_cc": {
+    "criteria": {
+      "has_cookie": "2024-12-06 02:32:51 +0000"
     },
     "done": true
   },
@@ -573,6 +796,12 @@
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2024-12-06 02:15:40 +0000"
+    },
+    "done": true
+  },
+  "cratedelight:recipes/building_blocks/apple_crate": {
+    "criteria": {
+      "has_apple": "2024-12-06 02:24:30 +0000"
     },
     "done": true
   },
@@ -612,6 +841,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2024-12-06 02:34:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
@@ -624,6 +859,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-12-06 02:28:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2024-12-06 02:14:42 +0000"
@@ -633,6 +874,12 @@
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-12-06 02:37:38 +0000"
     },
     "done": true
   },
@@ -672,6 +919,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-12-06 02:23:01 +0000"
+    },
+    "done": false
+  },
   "mcwfurnitures:recipes/spruce": {
     "criteria": {
       "has_wood": "2024-12-06 02:14:42 +0000"
@@ -681,6 +934,12 @@
   "gobber2:recipes/misc/gobber2_bow_nether": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-06 02:32:53 +0000"
     },
     "done": true
   },
@@ -762,9 +1021,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-06 02:25:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-06 02:37:14 +0000"
+    },
+    "done": true
+  },
   "gobber2:recipes/combat/gobber2_helmet_nether": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-12-06 02:25:25 +0000"
     },
     "done": true
   },
@@ -834,6 +1117,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-12-06 02:37:38 +0000"
+    },
+    "done": true
+  },
   "gobber2:recipes/misc/gobber2_rod_end": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
@@ -870,6 +1159,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-12-06 02:28:32 +0000"
+    },
+    "done": true
+  },
   "gobber2:recipes/combat/gobber2_boots_nether": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
@@ -888,6 +1183,25 @@
     },
     "done": true
   },
+  "ubesdelight:farmersdelight/recipes/cooking/fish_sauce_bottle_from_water_bucket": {
+    "criteria": {
+      "has_foods_safe_raw_fish": "2024-12-06 02:25:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "apple": "2024-12-06 02:37:32 +0000",
+      "bread": "2024-12-06 02:24:13 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-12-06 02:25:25 +0000"
+    },
+    "done": true
+  },
   "gobber2:recipes/misc/gobber2_tree_axe": {
     "criteria": {
       "has_stick": "2024-12-06 02:15:09 +0000"
@@ -897,6 +1211,18 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-12-06 02:15:40 +0000"
+    },
+    "done": true
+  },
+  "ubesdelight:farmersdelight/recipes/cooking/fish_sauce_bottle_from_water_bucket_extra": {
+    "criteria": {
+      "has_fishes": "2024-12-06 02:25:25 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/carrot_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-06 02:32:53 +0000"
     },
     "done": true
   },
@@ -930,6 +1256,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-06 02:32:53 +0000"
+    },
+    "done": true
+  },
   "cookingforblockheads:recipes/decorations/spice_rack": {
     "criteria": {
       "has_planks": "2024-12-06 02:14:53 +0000"
@@ -954,9 +1286,21 @@
     },
     "done": true
   },
+  "ubesdelight:recipes/food/minecraft/crafting/lumpia_wrapper_from_water_bucket": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-06 02:25:26 +0000"
+    },
+    "done": true
+  },
   "cookingforblockheads:recipes/decorations/fruit_basket": {
     "criteria": {
       "has_planks": "2024-12-06 02:14:53 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/black_cushion": {
+    "criteria": {
+      "has_black_cushion": "2024-12-06 02:28:33 +0000"
     },
     "done": true
   },
@@ -978,15 +1322,33 @@
     },
     "done": true
   },
+  "cratedelight:recipes/building_blocks/cod_crate": {
+    "criteria": {
+      "has_cod": "2024-12-06 02:25:25 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/wither_skeleton_trophy": {
     "criteria": {
       "has_wither_skeleton_trophy": "2024-12-06 02:14:53 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/spruce_side_table": {
     "criteria": {
       "has_spruce_side_table": "2024-12-06 02:14:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-06 02:25:30 +0000"
     },
     "done": true
   },
